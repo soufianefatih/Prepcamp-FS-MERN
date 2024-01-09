@@ -55,25 +55,6 @@ console.log(myGrade(85));
 
 
 
-function combinator(n,p) {
-
-    let P = 1
-    for (let i = 1 ; i <= p; i++) {
-            P *= i;
-        } 
-
-     let N = 1
-    for (let i = 1 ; i <= n; i++) {
-             N*= i;
-        
-            } 
-   
-            
-}
-console.log('fgr',combinator(1,6));
-
-
-
 function combinator(n, p) {
     let P = 1;
     for (let i = 1; i <= p; i++) {
@@ -101,7 +82,7 @@ console.log(combinator(5,2));
 
 
 function calculator(x,y,op) {
-    
+
   if(op == "+") return x +y
   if(op == "-") return x -y
   if(op == "*") return x *y
