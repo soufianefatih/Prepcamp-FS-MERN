@@ -6,7 +6,7 @@ let num = 5 ;
 let result = 1;
 
 for (let i = 1 ; i <= num; i++) {
-    result=result* i;
+    result*=i;
 }
 
 console.log(result); 
@@ -24,10 +24,7 @@ let count = 1;
     console.log(count);
   }
 
-
-
 console.log(count);
-
 
 
 // Task 3 :  Time to draw !
