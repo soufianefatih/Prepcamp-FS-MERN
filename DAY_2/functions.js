@@ -96,13 +96,7 @@ function combinator(n, p) {
     return result;
 }
 
-// Example usage:
-let n = 5;
-let p = 2;
-
-let combinationResult = combinator(n, p);
-
-console.log(`C(${n}, ${p}) = ${combinationResult}`);
+console.log(combinator(5,2));
 
 
 
