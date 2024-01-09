@@ -100,3 +100,36 @@ console.log(combinator(5,2));
 
 
 
+function calculator(x,y,op) {
+    
+  if(op == "+") return x +y
+  if(op == "-") return x -y
+  if(op == "*") return x *y
+  if(op == "/") return x /y
+  if(op == "c") {
+    let P = 1;
+    for (let i = 1; i <= y; i++) {
+        P *= i;
+    }
+
+    let N = 1;
+    for (let i = 1; i <= x; i++) {
+        N *= i;
+    }
+
+    let nMinusP = x - y;
+    let factorialNMinusP = 1;
+    for (let i = 1; i <= nMinusP; i++) {
+        factorialNMinusP *= i;
+    }
+
+    let result = N / (P * factorialNMinusP);
+
+    return result;
+
+  }
+}
+console.log(calculator(5,2,"c"));
+
+
+
