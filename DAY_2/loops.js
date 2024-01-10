@@ -26,6 +26,14 @@ let count = 1;
 
 console.log(count);
 
+let Number = 12345;
+for (let i = 1; i >= 1; count++) {
+    Number = (Number / 10);
+}
+
+console.log(i);
+
+
 
 // Task 3 :  Time to draw !
 // Using loops draw the following tree: 
@@ -58,6 +66,7 @@ for (let i = 1; i <= n; i++) {
 
   console.log( spaces + stars );
 }
+
 
 
 
