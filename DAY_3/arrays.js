@@ -201,9 +201,18 @@ console.log(sockMerchant([2,2, 3, 1,1])); // Output: 2
 
 
 
-const arr1 = ["Cecilie", "Lone"];
-const arr2 = ["Emil", "Tobias", "Linus"];
 
-const children = arr1.concat(arr2); 
 
-console.log('children',children);
+
+function Linear(array,params) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === params) {
+          return i 
+        }   
+      }
+      return -1
+    
+    
+}
+
+console.log('Linear',Linear([1,2,3,4],5));
